@@ -22,7 +22,7 @@ export default defineConfig({
         main: new URL('./src/main.ts', import.meta.url).pathname
       },
       output: {
-        entryFileNames: 'assets/bundle.js'
+        entryFileNames: 'bundle.js'
       }
     }
   }
